@@ -1,6 +1,6 @@
 function notify(){
-  var notify=new Notification("new trip" ,{
-      body:"مسافر جدید",
+  var notify=new Notification("مسافر جدید" ,{
+      body:"شما از تاکسی مشهد سفر جدید دریافت کردین",
       icon:"img/taxi.png",
       
 
