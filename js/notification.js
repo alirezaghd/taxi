@@ -1,6 +1,6 @@
 function notify(){
   var notify=new Notification("new trip" ,{
-      body:"the passengere is waiting",
+      body:"مسافر جدید",
       icon:"img/taxi.png",
       
 
