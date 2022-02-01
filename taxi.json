@@ -2,8 +2,8 @@
     {
         "car": "Samand",
         "name": "mamad agha",
-        "lat" : 36.327448,
-        "lng" : 59.516608
+  
+        "coords" : 36.327448,59.516608
 
     },
 
