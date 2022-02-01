@@ -90,6 +90,9 @@ if (navigator.geolocation) {
                     message.classList.remove("alert-warning");
                     message.classList.add("alert-success");
                     showNotification();
+                    
+                    show({ croods: { lat: 36.327448, lng: 59.516608 } })
+                    show({ croods: { lat: 36.322243, lng: 59.514993 } })
                 }))
 
             }
@@ -101,4 +104,16 @@ else {
     alert("Geolocation is not supported by this browser.");
 }
 
+function show(props) {
 
+
+    // var pos = new google.maps.LatLng(taxi[i].lat, taxi[i].lng);
+    var marker_taxi = new google.maps.Marker({
+        position: props.croods,
+        map: map,
+        icon: 'img/taxi.png',
+
+    });
+
+
+}
