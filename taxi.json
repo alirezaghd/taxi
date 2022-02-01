@@ -1,0 +1,27 @@
+[
+    {
+        "car": "Samand",
+        "name": "mamad agha",
+        "lat" : 36.327448,
+        "lng" : 59.516608
+
+    },
+
+    {
+        "car": "peykan",
+        "name": "jafar agha",
+        "lat" : 36.327768,
+        "lng" : 59.518497
+    },
+
+
+    {
+        "car": "peride",
+        "name": "esmat",
+        "lat" : 36.322243,
+        "lng" : 59.514993
+
+    }
+
+    
+]
