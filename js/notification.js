@@ -16,7 +16,7 @@ function showNotification(){
         if(Notification.permission==="granted"){
           notify();
         }
-        else if(Notification.permission==="denied"){
+        else if(Notification.permission !=="denied"){
          Notification.requestPermission(function(permission){
            if (permission === "granted" ){
              notify()
@@ -28,11 +28,6 @@ function showNotification(){
     else{
         alert("Notification does not supported");
     }
-
-
-
-
-
 
 
 }
